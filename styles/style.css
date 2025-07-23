@@ -103,6 +103,8 @@
 .plants-section-description p {
   font-family: Inter;
   font-weight: 400;
+  max-width: 680px;
+  margin: 0px auto;
 }
 
 /* card-section */
@@ -152,7 +154,7 @@
   font-family: Inter;
   font-size: 1rem;
   font-weight: 600;
-  padding: 26px 50px 26px 50px;
+  padding: 1.2rem 2.5rem;
   border: none;
   border-radius: 3px;
 }
@@ -178,7 +180,7 @@
     display: none;
     visibility: hidden;
   }
-
+  /* banner section  */
   .banner {
     flex-direction: column-reverse;
   }
@@ -191,5 +193,39 @@
 
   .banner-img {
     padding-top: 30px;
+  }
+
+  /* plants-section */
+
+  .plants-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .plants-section-description h4 {
+    font-family: Noto Serif;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .plants-section-description p {
+    max-width: 336px;
+  }
+
+  /* card section  */
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .card h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 12px 0px;
   }
 }
