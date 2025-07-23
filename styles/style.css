@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* shared style */
+.text-color-1 {
+  color: #000000;
+}
+.text-color-2 {
+  color: rgb(233, 90, 8);
+}
+.text-color-3 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* nav style  */
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 48px;
+}
+.nav-list li {
+  list-style: none;
+}
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Inter;
+}
+
+.home {
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+}
+.shop {
+  color: rgb(137, 135, 161);
+  font-weight: 400;
+}
+.about {
+  color: rgb(137, 135, 161);
+  font-weight: 400;
+}
+.cart {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+/* banner style */
+
+.banner {
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-description {
+  padding-top: 180px;
+}
+.banner-description h2 {
+  font-family: Noto Serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-description p {
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.banner-img {
+  padding-top: 90px;
+}
+.banner-img img {
+  width: 100%;
+}
+
+/* responsive style  */
+
+@media screen and (max-width: 576px) {
+  * {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  .nav-list ul {
+    gap: 0px;
+  }
+  .home,
+  .about,
+  .shop {
+    display: none;
+    visibility: hidden;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-description {
+    padding-top: 28px;
+  }
+  .banner-description h2 {
+    font-size: 1.2rem;
+  }
+  .banner-description p {
+    font-size: 0.8rem;
+  }
+  .banner-img {
+    padding-top: 30px;
+  }
+}
