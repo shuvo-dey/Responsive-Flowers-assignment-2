@@ -3,6 +3,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* shared style */
 .text-color-1 {
   color: #000000;
@@ -23,6 +32,7 @@
   margin: 0px auto;
   max-width: 1140px;
   margin: 0px auto;
+  margin-top: 20px;
 }
 
 .nav-list ul {
@@ -186,6 +196,7 @@
   position: absolute;
   right: -20%;
   bottom: 70%;
+  animation: spin 10s linear infinite;
 }
 
 .plants-lover-section-description {
