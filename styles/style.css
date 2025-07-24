@@ -24,6 +24,22 @@
   font-size: 1.1rem;
 }
 
+button:hover {
+  background-color: blue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: blue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: rgb(77, 164, 223);
+  transition: 0.3s;
+  cursor: pointer;
+}
 /* nav style  */
 .nav-section {
   display: flex;
