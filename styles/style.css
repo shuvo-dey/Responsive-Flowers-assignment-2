@@ -396,8 +396,13 @@
     text-align: center;
     margin-bottom: 20px;
   }
+  .latest-deal-description h2 {
+    font-size: 1rem;
+  }
+  .latest-deal-description p {
+    font-size: 0.8rem;
+  }
   /* latest-deal-card */
-
   .latest-deal-card {
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 50px;
